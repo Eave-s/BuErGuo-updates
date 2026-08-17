@@ -1,8 +1,8 @@
 {
-  "versionCode": 4,
-  "versionName": "1.2.1",
-  "apkUrl": "https://raw.githubusercontent.com/Eave-s/BuErGuo-updates/main/releases/BuErGuo-1.2.1-release.apk",
-  "changelog": "识别任务优化：MinerU 素材超限、云端失败或空结果会在 AI 处理前明确终止；AI 按逐题人工理解与匹配执行，禁止脚本式批量处理。更新服务固定为官方源，移除更新源编辑入口并清除历史自定义地址。",
-  "sha256": "b599af3161109f801f840418c344bee100ec1aeef96caedd5bc8ad70c0a89e98",
+  "versionCode": 5,
+  "versionName": "1.2.2",
+  "apkUrl": "https://raw.githubusercontent.com/Eave-s/BuErGuo-updates/main/releases/BuErGuo-1.2.2-release.apk",
+  "changelog": "修复 Android 12 及更早系统的应用内 OTA 安装失败：统一使用兼容的 PackageInstaller 会话写入接口并确保写入刷盘。平板用户无需再手动处理安装会话错误。",
+  "sha256": "cba9de6194762dcea7bd2adf6f06827dd928d0ef3d185fca6a0a450de56be256",
   "force": false
 }
