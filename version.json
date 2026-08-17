@@ -1,0 +1,8 @@
+{
+  "versionCode": 3,
+  "versionName": "1.2.0",
+  "apkUrl": "https://raw.githubusercontent.com/Eave-s/BuErGuo-updates/main/releases/BuErGuo-1.2.0-release.apk",
+  "changelog": "更新源迁移至独立公开更新仓库；保留正式版 OTA、安装包校验与系统安装确认。",
+  "sha256": "d4ccdad5d1eead33ccf4002af2eea84aae1828ab0a3ae13e83244ba0450e97c7",
+  "force": false
+}
