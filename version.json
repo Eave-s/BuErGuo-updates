@@ -1,8 +1,8 @@
 {
-  "versionCode": 10,
-  "versionName": "1.2.7",
-  "apkUrl": "https://raw.githubusercontent.com/Eave-s/BuErGuo-updates/main/releases/BuErGuo-1.2.7-release.apk",
-  "changelog": "本次为合并更新（1.2.4–1.2.7）。\n1) 识别更省：素材准备阶段不再调用被丢弃的 AI 结构化；MinerU 整批一次申请上传链接（不再撞 50 文件/分钟限流）；视觉识别图片 4 张一批提交；阶段1 已确认题目合并写入、不重复读取。任务详情新增累计 token 显示，识别设置新增「识别思考强度」（默认档与以前完全一致）。\n2) 识别更稳：修复 DeepSeek 思考模型下第二轮请求被拒（400 reasoning_content）；修复视觉识别失败被静默吞掉、任务却显示「素材准备完成」的问题，现在会明确报错并提示改用多模态模型或 MinerU。\n3) 推送日历：每道题可「跳过本次复习」——只跳过这一天，不改变下次到期时间；今天与未来日期都能用，自动重算不会把它拉回来。\n4) 数据面板：今日待复习与学习页/日历统一口径；错误率改自然日 7 天窗口；总复习次数改全量统计；新增错题只算错题库；刷题本进度排除已移除的题；跨零点后热力图/趋势自动前进。",
-  "sha256": "e0572820ae7b1eb8fca1b850c5ac8aa39a918a1c0b403b9dc4c5a089e0498571",
+  "versionCode": 11,
+  "versionName": "1.2.8",
+  "apkUrl": "https://raw.githubusercontent.com/Eave-s/BuErGuo-updates/main/releases/BuErGuo-1.2.8-release.apk",
+  "changelog": "1) 导入升级：外部 AI 整理的标准 JSON 现在可以直接导入刷题本（kind=PRACTICE）。题库层写一次 kind 就行，题目不必逐题重复；kind 与题型写法容错（忽略大小写、支持中文题型名），题型认不出时按单选题处理。\n2) 导入提示更明确：失败时显示具体原因（例如缺少题库名称 bankName），不再只提示「文件格式不正确」；解析与校验先于写库，不会留下半截数据。\n3) 内置规范更新为《标准题库 / 刷题本 JSON 规范》，新增刷题本整理说明与完整示例；设置页入口改为「AI 生成题库 / 刷题本」与「导入题库 / 刷题本（ZIP / JSON）」。\n4) ZIP 备份导入同步受益：题目缺省字段可继承 manifest 中的题库信息；老格式（ZIP / 裸 JSON 数组）不受影响。",
+  "sha256": "409a6d206d772d0c670200db5e02c169c20f30b7ce8e6103ab49a3c75006a82c",
   "force": false
 }
