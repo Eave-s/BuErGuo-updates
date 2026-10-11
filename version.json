@@ -1,8 +1,8 @@
 {
-  "versionCode": 5,
-  "versionName": "1.2.2",
-  "apkUrl": "https://raw.githubusercontent.com/Eave-s/BuErGuo-updates/main/releases/BuErGuo-1.2.2-release.apk",
-  "changelog": "修复 Android 12 及更早系统的应用内 OTA 安装失败：统一使用兼容的 PackageInstaller 会话写入接口并确保写入刷盘。平板用户无需再手动处理安装会话错误。",
-  "sha256": "cba9de6194762dcea7bd2adf6f06827dd928d0ef3d185fca6a0a450de56be256",
+  "versionCode": 6,
+  "versionName": "1.2.3",
+  "apkUrl": "https://raw.githubusercontent.com/Eave-s/BuErGuo-updates/main/releases/BuErGuo-1.2.3-release.apk",
+  "changelog": "修复多题识别在 DeepSeek 思考模型下第二轮请求被服务端拒绝（400 reasoning_content）导致识别失败的问题：识别任务的多轮工具调用现在会完整回传历史推理，素材较多、需要多次读写工作区的识别也能正常跑完并进入精修入库。",
+  "sha256": "cb8d4104bf3494bb0729f0e017cb0093ab19e5e02e642356dee22a341f414289",
   "force": false
 }
