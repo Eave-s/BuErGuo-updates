@@ -4,10 +4,21 @@
 
 ## 当前版本
 
-- 版本：1.2.0
-- versionCode：3
+- 版本：1.4.1
+- versionCode：15
 - 包名：`com.buerguo.study`
-- APK：`releases/BuErGuo-1.2.0-release.apk`
-- SHA-256：`d4ccdad5d1eead33ccf4002af2eea84aae1828ab0a3ae13e83244ba0450e97c7`
+- APK：`releases/BuErGuo-1.4.1-release.apk`
+- SHA-256：`2ffd829c33c1346e6c973c676dd22c8dd0cf63c1309f4e0597359b4237901424`
 
 应用内更新读取根目录 `version.json`。发布者必须先上传并校验 APK，再更新 `version.json`。
+
+## 历史版本
+
+| 版本 | versionCode | APK |
+| --- | --- | --- |
+| 1.4.0 | 14 | `releases/BuErGuo-1.4.0-release.apk` |
+| 1.3.1 | 13 | `releases/BuErGuo-1.3.1-release.apk` |
+| 1.3.0 | 12 | `releases/BuErGuo-1.3.0-release.apk` |
+| 1.2.8 | 11 | `releases/BuErGuo-1.2.8-release.apk` |
+| 1.2.7 | 10 | `releases/BuErGuo-1.2.7-release.apk` |
+| 1.2.3 | 6 | `releases/BuErGuo-1.2.3-release.apk` |
