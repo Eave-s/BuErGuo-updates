@@ -4,15 +4,15 @@
 
 ## 当前版本
 
-- 版本：**1.15.2**
-- versionCode：**61**
+- 版本：**1.15.3**
+- versionCode：**62**
 - 包名：`com.buerguo.study`
-- APK：`releases/BuErGuo-1.15.2-release.apk`
-- SHA-256：`277f819cf1b582ac5c197d476e5d910dec82d3edcffa712d39267b4d39e36c1b`
+- APK：`releases/BuErGuo-1.15.3-release.apk`
+- SHA-256：`1cda65d6fd32fda70123812b77ad48eb0c02144c42a03ce784ef8a1a147e0003`
 - 签名证书 SHA-256：`686575a772aeb2f9dbc51b2e2e4c132939baf641cae6c12e73a1c1402c13a083`
-- 数据结构：**v19**（两台设备都要升到本版再互相同步；升级后不能直接回退到 1.14.9）
+- 数据结构：**v19**（与 1.15.2 相同，可直接覆盖安装）
 
-本版更新内容（修复跨设备同步漏作答图、第一次同步即带图、同步边界加固）
+本版更新内容（修复分屏时悬浮窗被关在本应用那一半、气泡贴边与窗口尺寸保持、新增悬浮窗诊断行）
 见根目录 `version.json` 的 `changelog`，或在仓库右侧 **Releases** 页查看。
 
 ## 应用内更新怎么工作
@@ -34,7 +34,8 @@
 
 | 版本 | versionCode | APK | 备注 |
 | --- | --- | --- | --- |
-| 1.15.2 | 61 | `releases/BuErGuo-1.15.2-release.apk` | **当前版本**：修复跨设备同步漏作答图 + 第一次同步即带图 + 同步边界加固（DB v19） |
+| 1.15.3 | 62 | `releases/BuErGuo-1.15.3-release.apk` | **当前版本**：修复分屏时悬浮窗被关在本应用那一半（“空气墙”）+ 气泡贴边/窗口尺寸保持 + 悬浮窗诊断行（DB v19） |
+| 1.15.2 | 61 | `releases/BuErGuo-1.15.2-release.apk` | 修复跨设备同步漏作答图 + 第一次同步即带图 + 同步边界加固（DB v19） |
 | 1.15.1 | 60 | `releases/BuErGuo-1.15.1-release.apk` | 学习草稿自动保存/跨设备续答 + 待录入任务同步 + 新题每日配额修复 |
 | 1.14.9 | 58 | `releases/BuErGuo-1.14.9-release.apk` | 全局悬浮窗 + 新气泡交互 + 公式/输入法/文件修复 + 详情页上下文 |
 | 1.13.0 | 46 | `releases/BuErGuo-1.13.0-release.apk` | 「不再复习这道题」跨设备同步（DB v18）+ 手机竖屏日历可收起 |
