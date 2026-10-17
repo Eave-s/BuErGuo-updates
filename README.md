@@ -4,15 +4,15 @@
 
 ## 当前版本
 
-- 版本：**1.14.9**
-- versionCode：**58**
+- 版本：**1.15.1**
+- versionCode：**60**
 - 包名：`com.buerguo.study`
-- APK：`releases/BuErGuo-1.14.9-release.apk`
-- SHA-256：`a9269e3318310dbff11485c68ec9821a898011815c9b47471e41863d1aca402e`
+- APK：`releases/BuErGuo-1.15.1-release.apk`
+- SHA-256：`37b2415117752afe190d442c1ef32b9f4ffc5795a58a3988cecfb314f1088834`
 - 签名证书 SHA-256：`686575a772aeb2f9dbc51b2e2e4c132939baf641cae6c12e73a1c1402c13a083`
-- 数据结构：**v18**（与 1.13.0 相同，无迁移；可与 1.13.0 互相同步）
+- 数据结构：**v19**（新增学习草稿与批改逐题表；两台设备都要升到本版再互相同步，升级后不能直接回退到 1.14.9）
 
-本版更新内容（全局悬浮窗、新气泡交互、公式/输入法/文件选择修复、题目详情页上下文、深色跟随）
+本版更新内容（错题本/刷题本自动保存与跨设备续答、待录入批改任务同步、新题每日配额修复）
 见根目录 `version.json` 的 `changelog`，或在仓库右侧 **Releases** 页查看。
 
 ## 应用内更新怎么工作
@@ -34,7 +34,8 @@
 
 | 版本 | versionCode | APK | 备注 |
 | --- | --- | --- | --- |
-| 1.14.9 | 58 | `releases/BuErGuo-1.14.9-release.apk` | **当前版本**：全局悬浮窗 + 新气泡交互 + 公式/输入法/文件修复 + 详情页上下文 |
+| 1.15.1 | 60 | `releases/BuErGuo-1.15.1-release.apk` | **当前版本**：学习草稿自动保存/跨设备续答 + 待录入任务同步 + 新题每日配额修复（DB v19） |
+| 1.14.9 | 58 | `releases/BuErGuo-1.14.9-release.apk` | 全局悬浮窗 + 新气泡交互 + 公式/输入法/文件修复 + 详情页上下文 |
 | 1.13.0 | 46 | `releases/BuErGuo-1.13.0-release.apk` | 「不再复习这道题」跨设备同步（DB v18）+ 手机竖屏日历可收起 |
 | 1.12.0 | 45 | `releases/BuErGuo-1.12.0-release.apk` | 批改分级输出 + 按需生成详解 + 题干图补发 |
 | 1.11.0 | 44 | `releases/BuErGuo-1.11.0-release.apk` | 悬浮窗浏览器内核换成 GeckoView（修 DeepSeek 白屏） |
